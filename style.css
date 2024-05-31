@@ -1,0 +1,132 @@
+body {
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: url('handsgame.gif') no-repeat center center/cover;
+  color: #333;
+}
+
+#rps-game {
+  width: 80%;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center; /* Center the game content */
+  border: 2px solid red; /* Red border */
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.8); /* Glowing red border */
+}
+
+#name-input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  border: 2px solid red;
+  box-shadow: 0 0 20px rgba(255, 0, 0, 0.8);
+}
+
+#name-input-container label {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+#name-input {
+  padding: 10px;
+  font-size: 18px;
+  border: 2px solid red;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+#name-input:focus {
+  border-color: #ff0000;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+  outline: none;
+}
+
+#name-submit-btn {
+  padding: 15px 25px;
+  background-color: #000;
+  color: #ff0000; 
+  border: 2px solid red; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  transition: background-color 0.3s, text-shadow 0.3s;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+#name-submit-btn:hover {
+  background-color: #333;
+}
+
+#choices button {
+  padding: 15px 25px;
+  background-color: #000;
+  color: #ff0000; 
+  border: 2px solid red; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 10px;
+  transition: background-color 0.3s, text-shadow 0.3s;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+#choices button:hover {
+  background-color: #333;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#scoreboard {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+#player-score, #computer-score {
+  margin: 10px;
+}
+
+#game-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#round {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+#start-btn {
+  padding: 15px 25px;
+  background-color: #000;
+  color: #ff0000; 
+  border: 2px solid red; 
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  margin: 20px;
+  transition: background-color 0.3s, text-shadow 0.3s;
+  text-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+#start-btn:hover {
+  background-color: #333;
+}
